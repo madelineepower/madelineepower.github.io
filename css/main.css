@@ -1,0 +1,367 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:200,300,400,500");
+body {
+  margin: 0 auto;
+  padding: 0; }
+
+.navbar {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+  .navbar a {
+    color: #1c1c1c; }
+
+.nav > li > a:hover {
+  color: #d79e9e;
+  background-color: inherit;
+  cursor: pointer; }
+
+.main-header {
+  margin: 0 auto;
+  height: 100vh;
+  background-image: url(../images/nashville-skyline-work.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: center; }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+.header-text div {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%; }
+.header-text .border-line {
+  position: relative;
+  width: 30%;
+  height: 4px;
+  background-color: #d79e9e;
+  animation-name: fadein;
+  animation-fill-mode: backwards;
+  animation-duration: .6s;
+  animation-delay: .7s; }
+.header-text h1 {
+  animation-name: fadein;
+  animation-fill-mode: backwards;
+  animation-duration: 1s;
+  animation-delay: .7s;
+  font-size: 6em;
+  font-family: 'Baskerville', cursive;
+  letter-spacing: 2px; }
+.header-text h2 {
+  font-size: 1.4em;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  letter-spacing: 4px;
+  margin-top: 0;
+  padding-top: 10px;
+  animation-name: fadein;
+  animation-fill-mode: backwards;
+  animation-duration: 1s;
+  animation-delay: .7s; }
+
+.arrow {
+  margin: 0;
+  position: absolute;
+  top: 94%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  animation-name: fadein;
+  animation-fill-mode: backwards;
+  animation-duration: 1s;
+  animation-delay: .7s; }
+  .arrow p {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding-bottom: 10px; }
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite; }
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0); }
+  40% {
+    transform: translateY(-30px); }
+  60% {
+    transform: translateY(-15px); } }
+.about-me-bio {
+  height: 100vh;
+  position: relative; }
+
+.about-me {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+
+#about {
+  color: white;
+  background-color: #1c1c1c;
+  margin: 0 auto;
+  height: 100vh;
+  position: relative; }
+  #about .border-line {
+    position: relative;
+    width: 30%;
+    height: 4px;
+    background-color: #d79e9e; }
+  #about .section-heading {
+    font-family: 'Baskerville', cursive;
+    font-style: italic;
+    font-size: 4em; }
+  #about h2 {
+    font-size: 2em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    letter-spacing: 5px;
+    text-transform: uppercase; }
+  #about .top-par {
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-top: 50px;
+    margin-bottom: 50px; }
+  #about .bottom-par {
+    font-weight: 300; }
+
+.myButton {
+  background-color: #1c1c1c;
+  color: white;
+  border: 3px solid white;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 0.85em;
+  padding: 10px; }
+
+.portfolioButton {
+  background-color: #1c1c1c;
+  color: #d79e9e;
+  border: 3px solid #d79e9e;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 1em;
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px; }
+
+.btn-default:hover {
+  background-color: #1c1c1c;
+  color: #d79e9e;
+  border: 3px solid #d79e9e;
+  font-size: 1.1em; }
+
+.btn-default:focus {
+  background-color: #1c1c1c;
+  color: white;
+  border: 3px solid white; }
+
+.btn-default:active:hover {
+  background-color: #1c1c1c;
+  color: #d79e9e;
+  border: 3px solid #d79e9e; }
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto; }
+
+.about-photo {
+  background: #1c1c1c;
+  margin: 0;
+  text-align: center;
+  height: 100vh;
+  position: relative; }
+
+.img-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%; }
+
+.profile-pic {
+  width: 75%;
+  border-radius: 50%;
+  padding-top: 10%;
+  padding-bottom: 10%; }
+
+.sect-heading {
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-size: 3.2em;
+  font-family: 'Baskerville', serif;
+  letter-spacing: 1px; }
+
+.border-line {
+  position: relative;
+  width: 20%;
+  height: 4px;
+  background-color: #d79e9e; }
+
+.tech-section {
+  margin: 0 auto;
+  height: 100vh;
+  background-image: url(../images/coffee-cup2_Dark.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white; }
+  .tech-section i {
+    font-size: 6em;
+    padding: 15px;
+    margin: 10px; }
+  .tech-section h4 {
+    font-size: 1.4em;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase; }
+  .tech-section .row1 {
+    height: 30%;
+    margin-top: 50px;
+    padding-top: 30px; }
+  .tech-section .row2 {
+    padding-bottom: 20px; }
+
+.portfolio-section {
+  background-color: #1c1c1c;
+  color: white; }
+  .portfolio-section img {
+    width: 100%; }
+  .portfolio-section .image-div {
+    text-align: center; }
+  .portfolio-section h4 {
+    font-size: 2.5em;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 400;
+    padding: 0;
+    margin-top: 0; }
+  .portfolio-section p {
+    font-size: 1.3em;
+    padding-bottom: 20px;
+    font-weight: 300; }
+
+.project-description-div {
+  margin-bottom: 20px; }
+
+.tech-list {
+  list-style-type: none;
+  padding-left: 0;
+  padding-bottom: 30px; }
+  .tech-list li {
+    font-size: .9em;
+    display: inline;
+    margin-right: 10px;
+    background-color: gray;
+    color: black;
+    padding: 5px;
+    border-radius: 5px; }
+
+.connect-section {
+  height: 40vh;
+  background-image: url(../images/nashville-skyline-work.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center; }
+
+.border-whole {
+  width: 100%;
+  height: 4px;
+  background-color: #d79e9e; }
+
+.links ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px; }
+.links li {
+  display: inline;
+  margin: 10px; }
+
+.footer {
+  background-color: #1c1c1c;
+  color: white;
+  text-align: center; }
+  .footer p {
+    margin: 0;
+    padding: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px; }
+
+@media only screen and (max-width: 768px) {
+  .page-wrapper {
+    width: 100%; }
+
+  #about {
+    height: 128vh; }
+
+  .about-photo {
+    height: auto; }
+
+  .profile-pic {
+    padding-top: 0;
+    padding-bottom: 0; }
+
+  .about-me {
+    top: 30%; }
+
+  .tech-list li {
+    font-size: .8em; }
+
+  .tech-section {
+    background-position: 25% 75%;
+    height: auto; }
+    .tech-section i {
+      font-size: 2.7em;
+      padding: 0; }
+    .tech-section .row1 {
+      margin-top: 0; }
+    .tech-section .col-xs-2 {
+      padding-left: 0; }
+
+  .main-header {
+    background-position: 20% 75%;
+    text-align: center; }
+
+  .header-text {
+    width: 100%; }
+    .header-text h1 {
+      font-size: 3.5em; }
+    .header-text h2 {
+      font-size: .9em; } }
+@media only screen and (max-width: 375px) {
+  .header-text h1 {
+    font-size: 3em; }
+  .header-text h2 {
+    font-size: 1em; }
+
+  .tech-section {
+    height: auto; }
+    .tech-section i {
+      font-size: 2.3em; }
+
+  .tech-list li {
+    font-size: .6em; }
+
+  #about {
+    height: 128vh; }
+    #about .top-par {
+      font-size: .9em; } }
+
+/*# sourceMappingURL=main.css.map */
