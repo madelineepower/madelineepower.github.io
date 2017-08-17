@@ -401,7 +401,7 @@ body {
   }
   .tech-section{
     background-position: 25% 75%;
-    height: auto;
+    height: 70vh;
     i {
       font-size: 2.7em;
       padding: 0;
@@ -440,7 +440,7 @@ body {
     }
   }
   .tech-section {
-    height: auto;
+    height: 70vh;
     i {
       font-size: 2.3em;
     }
@@ -450,10 +450,17 @@ body {
       font-size: .6em;
     }
   }
+  .img-container {
+    transform: translate(-0%, -50%);
+    position: static;
+  }
 
   #about {
     height: 128vh;
     .top-par {
+      font-size: 1em;
+    }
+    .bottom-par: {
       font-size: .9em;
     }
   }

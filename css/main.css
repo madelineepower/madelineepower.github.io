@@ -326,7 +326,7 @@ body {
 
   .tech-section {
     background-position: 25% 75%;
-    height: auto; }
+    height: 70vh; }
     .tech-section i {
       font-size: 2.7em;
       padding: 0; }
@@ -352,16 +352,21 @@ body {
     font-size: 1em; }
 
   .tech-section {
-    height: auto; }
+    height: 70vh; }
     .tech-section i {
       font-size: 2.3em; }
 
   .tech-list li {
     font-size: .6em; }
 
+  .img-container {
+    transform: translate(0%, -50%);
+    position: static; }
+
   #about {
-    height: 128vh; }
+    height: 128vh;
+    .bottom-par-font-size: .9em; }
     #about .top-par {
-      font-size: .9em; } }
+      font-size: 1em; } }
 
 /*# sourceMappingURL=main.css.map */
