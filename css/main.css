@@ -309,17 +309,16 @@ body {
     width: 100%; }
 
   #about {
-    height: 128vh; }
+    height: 170vh; }
+
+  .about-me-bio {
+    height: 120vh; }
 
   .about-photo {
-    height: auto; }
-
-  .profile-pic {
-    padding-top: 0;
-    padding-bottom: 0; }
+    height: 30vh; }
 
   .about-me {
-    top: 30%; }
+    top: 40%; }
 
   .tech-list li {
     font-size: .8em; }
@@ -352,21 +351,12 @@ body {
     font-size: 1em; }
 
   .tech-section {
-    height: 70vh; }
+    height: 70vh;
+    position: relative; }
     .tech-section i {
       font-size: 2.3em; }
 
   .tech-list li {
-    font-size: .6em; }
-
-  .img-container {
-    transform: translate(0%, -50%);
-    position: static; }
-
-  #about {
-    height: 128vh;
-    .bottom-par-font-size: .9em; }
-    #about .top-par {
-      font-size: 1em; } }
+    font-size: .6em; } }
 
 /*# sourceMappingURL=main.css.map */

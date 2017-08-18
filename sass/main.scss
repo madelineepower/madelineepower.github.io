@@ -382,18 +382,24 @@ body {
     width: 100%;
   }
   #about {
-    height: 128vh;
+    height: 170vh;
+  }
+  .about-me-bio {
+    height: 120vh;
   }
   .about-photo {
-    height: auto;
-  }
-  .profile-pic {
-    padding-top: 0;
-    padding-bottom: 0;
+    height: 30vh;
   }
   .about-me {
-    top: 30%;
+    top: 40%;
   }
+  // .profile-pic {
+  //   padding-top: 0;
+  //   padding-bottom: 0;
+  // }
+  // .about-me {
+  //   top: 30%;
+  // }
   .tech-list {
     li {
       font-size: .8em;
@@ -441,6 +447,7 @@ body {
   }
   .tech-section {
     height: 70vh;
+    position: relative;
     i {
       font-size: 2.3em;
     }
@@ -450,18 +457,18 @@ body {
       font-size: .6em;
     }
   }
-  .img-container {
-    transform: translate(-0%, -50%);
-    position: static;
-  }
-
-  #about {
-    height: 128vh;
-    .top-par {
-      font-size: 1em;
-    }
-    .bottom-par: {
-      font-size: .9em;
-    }
-  }
+  // .img-container {
+  //   transform: translate(-0%, -50%);
+  //   position: static;
+  // }
+  //
+  // #about {
+  //   height: 200vh;
+  //   .top-par {
+  //     font-size: 1em;
+  //   }
+  //   .bottom-par: {
+  //     font-size: .8em;
+  //   }
+  // }
 }
