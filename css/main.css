@@ -244,7 +244,8 @@ body {
 
 .portfolio-section {
   background-color: #1c1c1c;
-  color: white; }
+  color: white;
+  padding-bottom: 25px; }
   .portfolio-section img {
     width: 100%; }
   .portfolio-section .image-div {
